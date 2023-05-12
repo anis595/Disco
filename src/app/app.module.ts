@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { AlbumModule } from './pages/album/album.module';
 import { TrackModule } from './pages/track/track.module';
 import { ArtistModule } from './pages/artist/artist.module';
+import { HomepageModule } from './pages/homepage/homepage.module';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +16,9 @@ import { ArtistModule } from './pages/artist/artist.module';
     AlbumModule,
     ArtistModule,
     TrackModule,
+    HomepageModule,
+    CoreModule,
+
     AppRoutingModule,
   ],
   providers: [],

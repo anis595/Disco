@@ -7,7 +7,7 @@ import { DeleteComponent } from './pages/delete/delete.component';
 import { UpdateComponent } from './pages/update/update.component';
 import { ReadComponent } from './pages/read/read.component';
 import { IndexComponent } from './pages/index/index.component';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,11 +15,8 @@ import { IndexComponent } from './pages/index/index.component';
     DeleteComponent,
     UpdateComponent,
     ReadComponent,
-    IndexComponent
+    IndexComponent,
   ],
-  imports: [
-    CommonModule,
-    AlbumRoutingModule
-  ]
+  imports: [CommonModule, AlbumRoutingModule, HttpClientModule],
 })
-export class AlbumModule { }
+export class AlbumModule {}
