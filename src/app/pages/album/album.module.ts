@@ -6,6 +6,7 @@ import { CreateComponent } from './pages/create/create.component';
 import { DeleteComponent } from './pages/delete/delete.component';
 import { UpdateComponent } from './pages/update/update.component';
 import { ReadComponent } from './pages/read/read.component';
+import { IndexComponent } from './pages/index/index.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ReadComponent } from './pages/read/read.component';
     CreateComponent,
     DeleteComponent,
     UpdateComponent,
-    ReadComponent
+    ReadComponent,
+    IndexComponent
   ],
   imports: [
     CommonModule,
