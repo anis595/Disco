@@ -18,7 +18,6 @@ import { CoreModule } from './core/core.module';
     TrackModule,
     HomepageModule,
     CoreModule,
-
     AppRoutingModule,
   ],
   providers: [],

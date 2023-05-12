@@ -20,7 +20,7 @@ const routes: Routes = [
         path: ':id',
         children: [
           {
-            path: '',
+            path: 'read',
             component: ReadComponent,
           },
           { path: 'edit', component: UpdateComponent },
